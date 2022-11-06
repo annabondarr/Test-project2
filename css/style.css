@@ -174,7 +174,7 @@ h3 {
   color: rgb(255, 255, 255);
   background-color: rgba(136, 136, 136, 0.581);
 }
-ul> li {
+.boxes > li { 
   display : inline-block;
   width : 400px;
   height: 450px;
