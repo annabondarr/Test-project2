@@ -1,0 +1,150 @@
+@import url('reset.css');
+
+body { /* 1 */
+	font-family: 'Poppins', sans-serif;
+	background: linear-gradient(rgba(0,0,0, 0.5),rgba(0,0,0, 0.5)), url('../images/TravelTime.jpg');
+  background-size: cover;
+  background-attachment: local;
+	color: #fff;
+}
+
+/* .body1 {
+    background: linear-gradient(rgba(0,0,0, 0.5),rgba(0,0,0, 0.5)), url('../images/TravelTime.jpg');
+    background-size: cover;
+    background-attachment: local;
+		font-family: 'Poppins', sans-serif;
+} */
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.header {
+  line-height: 36px; 
+  color: white;
+  padding: 35px 0;
+}
+
+.header__list {
+	font-size: 0;
+	text-align: center;
+}
+.header__list li {
+	display: inline-block;
+	font-size: 16px;
+	margin-right: 40px;
+}
+.header__list li > a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 100;
+}
+
+.content {
+	text-align: center;
+	width: 700px;
+	margin: 98px auto 0;
+}
+
+.content h1 {
+	font-size: 96px;
+	margin-bottom: 10px;
+	font-weight: 900;
+}
+.content > p {
+	font-size: 24px;
+}
+.main-link {
+	margin: 350px auto 150px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 40px;
+}
+.main-link a {
+	display: inline-block;
+	background-color: #029031;
+  border-radius: 60px;
+  border: 6px solid white;
+  padding: 10px 100px;
+	color: white;
+	text-decoration: none;
+}
+.body2 { /* 10 */
+    background-image: linear-gradient(rgba(0,0,0, 0.5),rgba(0,0,0, 0.5)), url('../images/TravelTime2.jpg');
+    background-size: cover;
+    background-attachment: local;
+}
+h2 {
+    color: white;
+    font-family: 'Poppins';
+    margin-top: 250 px;
+    text-align: center;
+    margin-top: 126px;
+    font-size: 40px;
+}
+.cards {
+    display: flex;
+		flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+.card {
+    border: solid rgb(112, 111, 111) 1px;
+    background:rgba(98, 95, 95, 0.5);
+    padding: 20px 15px;
+    max-width: 400px;
+}
+.read1 {
+    border: none;
+    background-color: rgba(133, 129, 129, 0.5);
+    color: white;
+    font-family: 'Poppins';
+    font-size: 15px;
+    margin-left: 2px;
+    box-shadow: 0 0px 8px 0;
+    margin-top: 50px;
+}
+.read2 {
+  border: none;
+    background-color: rgba(133, 129, 129, 0.5);
+    color: white;
+    font-family: 'Poppins';
+    font-size: 15px;
+    margin-left: 2px;
+    box-shadow: 0 0px 8px 0;
+    margin-top: 20px;
+}
+h3 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.card_container {
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: right;
+    margin-top: 25px;
+
+}
+
+.t-align-left { 
+	text-align: center;
+  margin-top: 20px;
+}
+.card-img {
+	height: 210px;
+	overflow: hidden;
+}
+.card-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.cards2 {
+  display: flex;
+	flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 1%;
+}
